@@ -1,0 +1,15 @@
+  
+<html>
+  <% mess = [1]
+  rep = 1
+  while rep < 100:
+    rep += 1
+    mess.append(rep)
+  for n in mess:
+      for n in mess:
+         save = mess[random.randrange(0,99)]
+         mess.remove(save)
+         mess.append(save)
+  print(mess)
+  %>
+</html>
